@@ -12,10 +12,10 @@ let countdownfunction = setInterval(function() {
     let minutes = Math.floor((delay % (60 * 60)) / 60);
     let seconds = Math.floor(delay % 60);
     // Output the result in an element with id="demo"
-    document.querySelector("#days .number").innerHTML = days.toString();
-    document.querySelector("#hours .number").innerHTML = hours.toString();
-    document.querySelector("#minutes .number").innerHTML = minutes.toString();
-    document.querySelector("#seconds .number").innerHTML = seconds.toString();
+    document.querySelector("#days .digit").innerHTML = days.toString();
+    document.querySelector("#hours .digit").innerHTML = hours.toString();
+    document.querySelector("#minutes .digit").innerHTML = minutes.toString();
+    document.querySelector("#seconds .digit").innerHTML = seconds.toString();
     // If the count down is over, write some text
     if (delay < 0) {
         clearInterval(countdownfunction);

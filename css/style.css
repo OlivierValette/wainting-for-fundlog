@@ -49,7 +49,7 @@ ul#countdown li .label  {
     text-transform: uppercase;
 }
 
-ul#countdown li .number {
+ul#countdown li .digit {
     background-color: transparent;
     color: #7bd4cc;
     font-size: 3rem;
