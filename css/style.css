@@ -1,0 +1,57 @@
+body, html {
+    font-family: 'Open Sans', serif;
+    height: 100%;
+    margin: 0;
+}
+
+.hero.is-info p.title,
+.hero.is-info p.subtitle {
+    color: #037365;
+}
+
+.hero.is-info p.subtitle strong {
+    color: #7bd4cc;
+}
+
+.hero.is-info {
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.25),
+            rgba(0, 0, 0, 0.25)
+    ), url('../image/dogo.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.hero .subtitle {
+    line-height: 1.5;
+    padding: 3rem 0;
+}
+
+ul#countdown {
+    margin: 10px 0;
+    padding: 10px 0 10px 0;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+ul#countdown li {
+    margin: 0 -3px 0 0;
+    padding: 0;
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+}
+
+ul#countdown li .label  {
+    color: #7bd4cc;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+ul#countdown li .number {
+    background-color: transparent;
+    color: #7bd4cc;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
